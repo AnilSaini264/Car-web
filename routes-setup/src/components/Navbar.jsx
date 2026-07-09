@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo">
-        <Link to="/">NEXBRIrmnvtk5vK</Link>
+        <Link to="/">CarHut</Link>
       </div>
 
       <ul className="nav-links">
@@ -13,18 +13,25 @@ const Navbar = () => {
           <Link to="/">Home</Link>
         </li>
         <li>
+          <Link to="/listing">Listing</Link>
+        </li>
+        <li>
+          <Link to="/blog">Blog</Link>
+        </li>
+        <li>
+          <Link to="/pages">Pages</Link>
+        </li>
+         <li>
           <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/services">Services</Link>
-        </li>
-        <li>
-          <Link to="/products">Products</Link>
         </li>
         <li>
           <Link to="/contact">Contact</Link>
         </li>
+         <li>
+          <Link to="/sign-in">Sign In</Link>
+        </li>
       </ul>
+      <button className="sub-button">Submit Listing</button>
     </nav>
   );
 };

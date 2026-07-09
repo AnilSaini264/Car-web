@@ -1,9 +1,10 @@
 import React from 'react'
-
-const Home = () => {
+// import Image from './Contact/Image/Car.jpg'
+const Home = (props) => {
   return (
-    <div>
-      <h1>this is home page</h1>
+    <div className='home'>
+      <img src={props.Image} alt="car" />
+      
     </div>
   )
 }
